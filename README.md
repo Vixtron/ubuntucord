@@ -16,4 +16,4 @@ Close up of how fonts are rendered on Linux, they are no longer thin, for compar
 ### Example of a channel page.
 ![img4](https://github.com/Vixtron/ubuntucord/blob/master/pic4.png) <br />
 
-<sub>Font: [Ubuntu](https://fonts.google.com/specimen/Ubuntu), [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono) | Server used as an example [Discord](https://discord.gg/discord-linux/)</sub>
+<sub>Font: [Ubuntu](https://fonts.google.com/specimen/Ubuntu), [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono) | Server used as an example [Discord](https://discordapp.com/invite/discord-linux)</sub>
