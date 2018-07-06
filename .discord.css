@@ -8,13 +8,14 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
 
-button[type*="button"]
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookInverted-2D7oAl.colorBrand-3pXr91
 { font-family: var(--font-one), sans!important; font-weight: normal; font-size: 13px; padding-top: 2px; }
 
 .private-channels header,
 div[class*="nameDefault-"],
 div[class*="nameHovered-"],
-div[class*="nameMuted-"],
+div[class*="nameMuted-"],a
 div[class*="nameCollapsed"],
 div[class*="nameHoveredCollapsed"],
 div[class*="membersGroup-v9BXpm"],
@@ -71,7 +72,8 @@ code[class*="scrollbar-"]
 textarea[class*="textArea-"]::-webkit-input-placeholder
 { font-family: var(--font-one), sans !important; font-size: 14px; }
 
-span[class*="botTagRegular-"]
+span[class*="botTagRegular-"],
+span[class*="botTagInvert-"]
 { font-family: var(--font-one), sans !important; font-weight: 600; line-height: 13px; padding-top: 2px; }
 
 /* Global fonts */
