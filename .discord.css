@@ -4,7 +4,9 @@
  *  Repository LICENSE applies to this code.
  */
 
+/* Ubuntu font imports */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
 
 .private-channels header,
 div[class*="nameDefault-"],
@@ -57,16 +59,17 @@ div[class*="mask-"],
 div[class*="assetsLargeMaskProfile-"]
 { -webkit-mask: unset !important; }
 
-/* Codeblock font */
+code[class*="inline"],
 code[class*="scrollbarGhost-"],
-code[class*="scrollbar-"],
-code[class*="inline"]
+code[class*="scrollbar-"]
 { font-family: var(--font-three), monospace !important; font-weight: 600 !important; }
 
 /* Text area placeholder font */
-textarea[class*="textArea-"]::-webkit-input-placeholder,
-button[type*="button"]
+textarea[class*="textArea-"]::-webkit-input-placeholder
 { font-family: var(--font-one), sans !important; font-size: 14px; }
+
+button[type*="button"]
+{ font-weight: 600; font-family: var(--font-one), sans !important; font-size: 13px; }
 
 /* Global fonts */
 textarea[class*="textArea-"],
