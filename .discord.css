@@ -18,7 +18,7 @@ div[class*="membersGroup-v9BXpm"],
 div[class*="friends-online"],
 div[class*="total-results"],
 div[class*="header-2N-"]
-{ font-weight: bold; font-size: 12px; font-family: "Ubuntu", bold !important; }
+{ font-weight: bold; font-size: 12px; font-family: var(--font-one), bold !important; }
 
 div[class*="activityText-sLG0UL"]
 { font-size: 10px; }
@@ -72,6 +72,7 @@ button[type*="button"]
 { font-weight: 600; font-family: var(--font-one), sans !important; font-size: 13px; }
 
 /* Global fonts */
+input[class*="input-"]::-webkit-input-placeholder,
 textarea[class*="textArea-"],
 div[class*="roleName-"],
 div[class*="appMount-"],
