@@ -12,16 +12,26 @@
 .lookInverted-2D7oAl.colorBrand-3pXr91
 { font-family: var(--font-one), sans!important; font-weight: normal; font-size: 13px; padding-top: 2px; }
 
+.chat 
+.avatar-large
+{ -webkit-transition: unset; }
+
+.guilds-wrapper
+.guilds 
+.friends-online
+{ font-weight: bold; }
+
 .private-channels header,
 div[class*="nameDefault-"],
 div[class*="nameHovered-"],
-div[class*="nameMuted-"],a
+div[class*="nameMuted-"],
 div[class*="nameCollapsed"],
 div[class*="nameHoveredCollapsed"],
 div[class*="membersGroup-v9BXpm"],
 div[class*="friends-online"],
 div[class*="total-results"],
-div[class*="header-2N-"]
+div[class*="header-2N-"],
+div[class*=""]
 { font-weight: bold; font-size: 12px; font-family: var(--font-one), bold !important; }
 
 div[class*="activityText-sLG0UL"]
@@ -74,7 +84,11 @@ textarea[class*="textArea-"]::-webkit-input-placeholder
 
 span[class*="botTagRegular-"],
 span[class*="botTagInvert-"]
-{ font-family: var(--font-one), sans !important; font-weight: 600; line-height: 13px; padding-top: 2px; }
+{ font-family: var(--font-one), sans !important; font-weight: bold; line-height: 13px; padding-top: 2px; }
+
+span[class*="aka-"]
+{ font-family: var(--font-one), sans !important; font-weight: bold; padding-top
+: 2px; }
 
 /* Global fonts */
 input[class*="input-"]::-webkit-input-placeholder,
