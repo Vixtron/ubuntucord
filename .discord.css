@@ -10,7 +10,7 @@
 
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorBrand-3pXr91
-{ font-family: var(--font-one), sans!important; font-weight: normal; font-size: 13px; padding-top: 2px; }
+{ font-family: var(--font-one), sans !important; font-weight: normal; font-size: 13px; padding-top: 2px; }
 
 .chat 
 .avatar-large
@@ -30,8 +30,7 @@ div[class*="nameHoveredCollapsed"],
 div[class*="membersGroup-v9BXpm"],
 div[class*="friends-online"],
 div[class*="total-results"],
-div[class*="header-2N-"],
-div[class*=""]
+div[class*="header-2N-"]
 { font-weight: bold; font-size: 12px; font-family: var(--font-one), bold !important; }
 
 div[class*="activityText-sLG0UL"]
@@ -85,6 +84,9 @@ textarea[class*="textArea-"]::-webkit-input-placeholder
 span[class*="botTagRegular-"],
 span[class*="botTagInvert-"]
 { font-family: var(--font-one), sans !important; font-weight: bold; line-height: 13px; padding-top: 2px; }
+
+div[class*="contents-18-Yxp"]
+{ font-family: var(--font-one), sans !important; font-size: 13px; }
 
 span[class*="aka-"]
 { font-family: var(--font-one), sans !important; font-weight: bold; padding-top
