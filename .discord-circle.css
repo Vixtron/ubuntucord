@@ -12,16 +12,16 @@
 .lookInverted-2D7oAl.colorBrand-3pXr91
 { font-family: var(--font-one), sans !important; font-weight: normal; font-size: 13px; padding-top: 2px; }
 
-.chat 
-.avatar-large
-{ -webkit-transition: unset; }
-
 .guilds-wrapper
 .guilds 
-.friends-online
+.friends-online,
+span[class*="discriminator"]
 { font-weight: bold; }
 
 .private-channels header,
+.search-bar input,
+.chat .new-messages-bar button,
+.chat .jump-to-present-bar button,
 div[class*="nameDefault-"],
 div[class*="nameHovered-"],
 div[class*="nameMuted-"],
@@ -71,7 +71,8 @@ div[class*="headerTag-"],
 div[class*="public-DraftStyleDefault-block"],
 div[class*="headerTabBarWrapper-"],
 div[class*="title-"],
-div[class*="textRow-"]
+div[class*="textRow-"],
+input[class*="input-2VB9rf"]
 { font-family: var(--font-one), sans !important; font-weight: 400 !important; }
 
 /* Divs */
