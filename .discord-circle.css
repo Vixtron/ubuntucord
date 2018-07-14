@@ -1,6 +1,5 @@
 /*
- *  Discord theme by Vix
- *  Focused on minimal color choice and square design
+ *  Discord custom fonts by Vix
  *  Repository LICENSE applies to this code.
  */
 
@@ -10,12 +9,15 @@
 
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorBrand-3pXr91
-{ font-family: var(--font-one), sans !important; font-weight: normal; font-size: 13px; padding-top: 2px; }
+{ font-family: var(--font-one), sans !important; 
+  font-weight: normal; font-size: 13px;
+  padding-top: 2px; }
 
 .guilds-wrapper
 .guilds 
 .friends-online,
-span[class*="discriminator"]
+.accountDetails-3k9g4n
+.discriminator
 { font-weight: bold; }
 
 .private-channels header,
@@ -31,37 +33,55 @@ div[class*="membersGroup-v9BXpm"],
 div[class*="friends-online"],
 div[class*="total-results"],
 div[class*="header-2N-"]
-{ font-weight: bold; font-size: 12px; font-family: var(--font-one), bold !important; }
+{ font-family: var(--font-one), bold !important; 
+  font-weight: bold; font-size: 12px; } 
 
 div[class*="activityText-sLG0UL"]
 { font-size: 10px; }
 
-.guild.selected:before
-{ height: 50px !important; margin-top: -25px !important; }
-
 code[class*="inline"],
 code[class*="scrollbarGhost-"],
 code[class*="scrollbar-"]
-{ font-family: var(--font-three), monospace !important; font-weight: 600 !important; }
+{ font-family: var(--font-two), monospace !important; 
+  font-weight: 600 !important; }
 
 /* Text area placeholder font */
 textarea[class*="textArea-"]::-webkit-input-placeholder
-{ font-family: var(--font-one), sans !important; font-size: 14px; }
+{ font-family: var(--font-one), sans !important; 
+  font-size: 14px; }
 
 span[class*="botTagRegular-"],
 span[class*="botTagInvert-"]
-{ font-family: var(--font-one), sans !important; font-weight: bold; line-height: 13px; padding-top: 2px; }
+{ font-family: var(--font-one), sans !important; 
+  font-weight: bold; 
+  line-height: 13px; 
+  padding-top: 2px; }
 
 div[class*="contents-18-Yxp"]
-{ font-family: var(--font-one), sans !important; font-size: 13px; }
+{ font-family: var(--font-one), bold !important; 
+  font-weight: bold; 
+  font-size: 13px; }
 
 span[class*="aka-"]
-{ font-family: var(--font-one), sans !important; font-weight: bold; padding-top
-: 2px; }
+{ font-family: var(--font-one), sans !important; 
+  font-weight: bold; 
+  padding-top: 2px; }
+
+/* Server settings font padding fix */
+.Select 
+.Select-control div
+{ line-height: 28px; }
+
+.theme-light 
+.select-2TCrqx 
+.Select-option
+{ padding-top: 12px; }
 
 /* Global fonts */
 input[class*="input-"]::-webkit-input-placeholder,
+input[class*="inputDefault-_djjkz"],
 textarea[class*="textArea-"],
+div[class*="marginTop8-"],
 div[class*="roleName-"],
 div[class*="appMount-"],
 div[class*="connectedAccountName-"],
@@ -73,13 +93,17 @@ div[class*="headerTabBarWrapper-"],
 div[class*="title-"],
 div[class*="textRow-"],
 input[class*="input-2VB9rf"]
-{ font-family: var(--font-one), sans !important; font-weight: 400 !important; }
+{ font-family: var(--font-one), sans !important; 
+  font-weight: 400 !important; }
 
 /* Divs */
 .private-channels header,
 div[class*="total-results"],
 div[class*="header-2N-"],
-{ font-family: var(--font-two), sans !important; font-weight: 400 !important; letter-spacing: 0px !important; cursor: default !important; }
+{ font-family: var(--font-two), sans !important; 
+  font-weight: 400 !important; 
+  letter-spacing: 0px !important; 
+  cursor: default !important; }
 
 div[class*="typing-"],
 div[class*="friends-table-header"],
@@ -96,11 +120,11 @@ h1[class*="old-h1"],
 h2[class*="title-"],
 h5[class*="title-"],
 span[class*="timestamp"]
-{ font-family: var(--font-one), sans-serif !important; font-weight: 300 !important; }
+{ font-family: var(--font-one), sans !important; 
+  font-weight: 300 !important; }
 
 :root {
   /* Fonts */
   --font-one: "Ubuntu";
-  --font-two: "Ubuntu";
-  --font-three: "Ubuntu Mono";
+  --font-two: "Ubuntu Mono";
 }
