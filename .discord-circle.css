@@ -4,8 +4,9 @@
  */
 
 /* Ubuntu font imports */
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
 
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorBrand-3pXr91
@@ -57,10 +58,14 @@ span[class*="botTagInvert-"]
   line-height: 13px; 
   padding-top: 2px; }
 
+div[class*="typing-"]
+{ font-size: 12px !important; }
+
 div[class*="contents-18-Yxp"]
 { font-family: var(--font-one), bold !important; 
   font-weight: bold; 
-  font-size: 13px; }
+  font-size: 13px;
+  letter-spacing: -0.5px; }
 
 span[class*="aka-"]
 { font-family: var(--font-one), sans !important; 
@@ -69,7 +74,8 @@ span[class*="aka-"]
 
 /* Server settings font padding fix */
 .Select 
-.Select-control div
+.Select-control div,
+span[class*="Select-arrow"]
 { line-height: 28px; }
 
 .theme-light 
