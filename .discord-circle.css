@@ -6,7 +6,6 @@
 /* Ubuntu font imports */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
 
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorBrand-3pXr91
@@ -60,6 +59,9 @@ span[class*="botTagInvert-"]
 
 div[class*="typing-"]
 { font-size: 12px !important; }
+
+div[class*="nameTag-2IFDfL"]
+{ line-height: 15px; }
 
 div[class*="contents-18-Yxp"]
 { font-family: var(--font-one), bold !important; 
