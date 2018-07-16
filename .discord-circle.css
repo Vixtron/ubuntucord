@@ -63,6 +63,9 @@ div[class*="typing-"]
 div[class*="nameTag-2IFDfL"]
 { line-height: 15px; }
 
+div[class*="connectedAccountName-f8AEe2"]
+{ line-height: 18px; }
+
 div[class*="contents-18-Yxp"]
 { font-family: var(--font-one), bold !important; 
   font-weight: bold; 
