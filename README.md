@@ -5,18 +5,18 @@ You can install it for your Discord by running `beautifuldiscord --css /path/to/
 
 ### This is a short preview of the theme in screenshots. <br />
 Close up of how fonts are rendered on Linux, they are no longer thin, for comparison take a look at the next picture down below. <br />
-![img1](https://github.com/Vixtron/ubuntucord/blob/master/pic1.png)
+![img1](https://github.com/Vixtron/ubuntucord/blob/master/images/pic1.png)
 
 ### Dark theme, no CSS modification. <br />
-![img2](https://github.com/Vixtron/ubuntucord/blob/master/pic2.png)
+![img2](https://github.com/Vixtron/ubuntucord/blob/master/images/pic2.png)
 
 ### General preview of the user settings page.
-![img3](https://github.com/Vixtron/ubuntucord/blob/master/pic3.png)
+![img3](https://github.com/Vixtron/ubuntucord/blob/master/images/pic3.png)
 
 ### Example of a channel page.
-![img4](https://github.com/Vixtron/ubuntucord/blob/master/pic4.png)
+![img4](https://github.com/Vixtron/ubuntucord/blob/master/images/pic4.png)
 
 ### Improved codeblock font-weight rule.
-![img5](https://github.com/Vixtron/ubuntucord/blob/master/pic5.png)<br />
+![img5](https://github.com/Vixtron/ubuntucord/blob/master/images/pic5.png)<br />
 
 <sub>Font: [Ubuntu](https://fonts.google.com/specimen/Ubuntu), [Ubuntu Mono](https://fonts.google.com/specimen/Ubuntu+Mono) | Server used as an example [Discord](https://discordapp.com/invite/discord-linux)</sub>
